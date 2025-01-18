@@ -2353,3 +2353,5 @@
 2025-01-19 02:32:04,048 - 127.0.0.1 - - [19/Jan/2025 02:32:04] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
 2025-01-19 02:32:08,255 - 127.0.0.1 - - [19/Jan/2025 02:32:08] "GET /admin/tally HTTP/1.1" 200 -
 2025-01-19 02:32:08,464 - 127.0.0.1 - - [19/Jan/2025 02:32:08] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:11:16,069 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
