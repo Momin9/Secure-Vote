@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-primary text-center mb-4">Admin Login</h2>
+            <p class="text-muted text-center">Login to access the admin panel.</p>
+            <form method="POST" action="{{ url_for('admin_login') }}" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="admin_id" class="form-label">Admin ID</label>
+                    <input type="text" class="form-control" id="admin_id" name="admin_id" placeholder="Enter your Admin ID" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

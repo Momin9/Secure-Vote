@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Cast Your Vote</h2>
+
+    <!-- Message Section -->
+    {% if message %}
+    <div class="mt-3 alert alert-info">
+        {{ message }}
+    </div>
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('voting', election_id=election_id) }}">
+        <div class="row">
+            {% for candidate in candidates %}
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{ candidate[1] }}</h5>
+                        <p class="card-text">{{ candidate[2] }}</p>
+                        <button type="submit" name="candidate_id" value="{{ candidate[0] }}" class="btn btn-primary">Vote</button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-primary text-center mb-4">Register</h2>
+            <p class="text-muted text-center">Create your voter account to participate in elections.</p>
+            <form method="POST" action="{{ url_for('voter_register') }}" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="confirm_password" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

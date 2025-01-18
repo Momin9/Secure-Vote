@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-primary text-center mb-4">Voter Login</h2>
+            <p class="text-muted text-center">Login to cast your vote or check your status.</p>
+            <form method="POST" action="{{ url_for('voter_login') }}" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="voter_id" class="form-label">Voter ID</label>
+                    <input type="text" class="form-control" id="voter_id" name="voter_id" placeholder="Enter your Voter ID" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

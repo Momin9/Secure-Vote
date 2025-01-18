@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-primary mb-4">Create a New Election</h2>
+    <form method="POST" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label for="name" class="form-label">Election Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter election name" required>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" id="description" name="description" placeholder="Enter election description" rows="4"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="date" class="form-label">Election Start Date</label>
+            <label for="start_date"></label><input type="date" class="form-control" id="start_date" name="start_date" required>
+        </div>
+        <div class="mb-3">
+            <label for="date" class="form-label">Election End Date</label>
+            <label for="end_date"></label><input type="date" class="form-control" id="end_date" name="end_date" required>
+        </div>
+        <button type="submit" class="btn btn-success">Create Election</button>
+    </form>
+</div>
+{% endblock %}

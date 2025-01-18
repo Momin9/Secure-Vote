@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Validate OTP to {{ action }}</h2>
+    <form method="POST" action="{{ url_for('validate_registration_otp') }}">
+        <div class="mb-3">
+            <label for="otp" class="form-label">Enter OTP</label>
+            <input type="text" class="form-control" id="otp" name="otp" required>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <hr>
+    <form method="POST" action="{{ url_for('resend_registration_otp') }}">
+        <button type="submit" class="btn btn-primary">Resend OTP</button>
+    </form>
+</div>
+{% endblock %}
