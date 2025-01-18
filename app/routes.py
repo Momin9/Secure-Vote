@@ -198,25 +198,28 @@ def validate_login_otp():
 @voter_required
 def voting():
     election_id = request.args.get('election_id', type=int)
-    # if not election_id:
-    #     return render_template('voting.html', election_id=election_id)
     candidates = list_candidates(election_id)
 
+    # If no candidates are available, return the voting page with a message
     if not candidates:
-        return render_template('voting.html', election_id=election_id)
+        return render_template('voting.html', election_id=election_id, message="No candidates available for this election.")
 
+    # Handle POST request for voting
     if request.method == 'POST':
         candidate_id = request.form['candidate_id']
-        voter_id = session['voter_id']
+        voter_id = session.get('voter_id')
         election_id = get_election_id(candidate_id)
+
+        # Attempt to cast the vote
         if cast_vote(voter_id, candidate_id, election_id[0][0]):
-            print('Vote cast successfully!', 'success')
+            message = "Thank you! Your vote has been accepted."
         else:
-            print('Failed to cast vote. You may have already voted.', 'danger')
+            message = "You have already cast your vote."
 
-        # Redirect to avoid form resubmission
-        return redirect(url_for('voting', election_id=election_id))
+        # Redirect to display the message and avoid form resubmission
+        return render_template('voting.html', candidates=candidates, election_id=election_id, message=message)
 
+    # Render the voting page with candidates
     return render_template('voting.html', candidates=candidates, election_id=election_id)
 
 

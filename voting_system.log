@@ -2355,3 +2355,23 @@
 2025-01-19 02:32:08,464 - 127.0.0.1 - - [19/Jan/2025 02:32:08] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
 2025-01-19 04:11:16,069 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
+2025-01-19 04:11:16,070 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:25:36,007 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:25:36,007 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:25:47,214 - 127.0.0.1 - - [19/Jan/2025 04:25:47] "GET / HTTP/1.1" 200 -
+2025-01-19 04:25:47,423 - 127.0.0.1 - - [19/Jan/2025 04:25:47] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:25:48,981 - 127.0.0.1 - - [19/Jan/2025 04:25:48] "GET /register HTTP/1.1" 200 -
+2025-01-19 04:25:49,297 - 127.0.0.1 - - [19/Jan/2025 04:25:49] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:26:29,841 - Voter ID 8ZS6NT9H2MER initiated registration with email nadir722457@gmail.com.
+2025-01-19 04:26:29,848 - 127.0.0.1 - - [19/Jan/2025 04:26:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-19 04:26:29,858 - 127.0.0.1 - - [19/Jan/2025 04:26:29] "GET /register/validate HTTP/1.1" 200 -
+2025-01-19 04:26:29,892 - 127.0.0.1 - - [19/Jan/2025 04:26:29] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:26:48,917 - 127.0.0.1 - - [19/Jan/2025 04:26:48] "[32mPOST /register/validate HTTP/1.1[0m" 302 -
+2025-01-19 04:26:48,925 - 127.0.0.1 - - [19/Jan/2025 04:26:48] "GET /login HTTP/1.1" 200 -
+2025-01-19 04:26:48,953 - 127.0.0.1 - - [19/Jan/2025 04:26:48] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:27:07,961 - 127.0.0.1 - - [19/Jan/2025 04:27:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-19 04:27:07,969 - 127.0.0.1 - - [19/Jan/2025 04:27:07] "GET /voting HTTP/1.1" 200 -
+2025-01-19 04:27:08,000 - 127.0.0.1 - - [19/Jan/2025 04:27:08] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:27:20,388 - 127.0.0.1 - - [19/Jan/2025 04:27:20] "POST /voting HTTP/1.1" 200 -
+2025-01-19 04:27:20,405 - 127.0.0.1 - - [19/Jan/2025 04:27:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
