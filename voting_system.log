@@ -2375,3 +2375,711 @@
 2025-01-19 04:27:08,000 - 127.0.0.1 - - [19/Jan/2025 04:27:08] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
 2025-01-19 04:27:20,388 - 127.0.0.1 - - [19/Jan/2025 04:27:20] "POST /voting HTTP/1.1" 200 -
 2025-01-19 04:27:20,405 - 127.0.0.1 - - [19/Jan/2025 04:27:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:31:03,408 - 127.0.0.1 - - [19/Jan/2025 04:31:03] "GET /login HTTP/1.1" 200 -
+2025-01-19 04:31:03,653 - 127.0.0.1 - - [19/Jan/2025 04:31:03] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:39:20,290 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:39:20,291 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:39:24,830 - 127.0.0.1 - - [19/Jan/2025 04:39:24] "GET /login HTTP/1.1" 200 -
+2025-01-19 04:39:24,852 - 127.0.0.1 - - [19/Jan/2025 04:39:24] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:39:33,981 - 127.0.0.1 - - [19/Jan/2025 04:39:33] "GET / HTTP/1.1" 200 -
+2025-01-19 04:39:34,298 - 127.0.0.1 - - [19/Jan/2025 04:39:34] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:41:43,208 - 127.0.0.1 - - [19/Jan/2025 04:41:43] "GET / HTTP/1.1" 200 -
+2025-01-19 04:41:43,225 - 127.0.0.1 - - [19/Jan/2025 04:41:43] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:41:47,381 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:41:47,381 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:41:54,646 - 127.0.0.1 - - [19/Jan/2025 04:41:54] "GET / HTTP/1.1" 200 -
+2025-01-19 04:41:54,663 - 127.0.0.1 - - [19/Jan/2025 04:41:54] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:43:25,101 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:43:25,102 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:43:34,395 - 127.0.0.1 - - [19/Jan/2025 04:43:34] "GET / HTTP/1.1" 200 -
+2025-01-19 04:43:34,410 - 127.0.0.1 - - [19/Jan/2025 04:43:34] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:47:07,426 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:47:07,426 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:47:12,638 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:47:12,638 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:47:17,513 - 127.0.0.1 - - [19/Jan/2025 04:47:17] "GET / HTTP/1.1" 200 -
+2025-01-19 04:47:17,528 - 127.0.0.1 - - [19/Jan/2025 04:47:17] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:47:28,289 - 127.0.0.1 - - [19/Jan/2025 04:47:28] "GET / HTTP/1.1" 200 -
+2025-01-19 04:47:28,592 - 127.0.0.1 - - [19/Jan/2025 04:47:28] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:47:36,433 - 127.0.0.1 - - [19/Jan/2025 04:47:36] "GET / HTTP/1.1" 200 -
+2025-01-19 04:47:36,451 - 127.0.0.1 - - [19/Jan/2025 04:47:36] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:47:41,227 - 127.0.0.1 - - [19/Jan/2025 04:47:41] "GET / HTTP/1.1" 200 -
+2025-01-19 04:47:41,531 - 127.0.0.1 - - [19/Jan/2025 04:47:41] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:47:49,291 - 127.0.0.1 - - [19/Jan/2025 04:47:49] "GET / HTTP/1.1" 200 -
+2025-01-19 04:47:49,309 - 127.0.0.1 - - [19/Jan/2025 04:47:49] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:47:56,577 - 127.0.0.1 - - [19/Jan/2025 04:47:56] "GET / HTTP/1.1" 200 -
+2025-01-19 04:47:56,890 - 127.0.0.1 - - [19/Jan/2025 04:47:56] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:48:13,144 - 127.0.0.1 - - [19/Jan/2025 04:48:13] "GET / HTTP/1.1" 200 -
+2025-01-19 04:48:13,161 - 127.0.0.1 - - [19/Jan/2025 04:48:13] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:48:28,323 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:48:28,324 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:48:31,677 - 127.0.0.1 - - [19/Jan/2025 04:48:31] "GET / HTTP/1.1" 200 -
+2025-01-19 04:48:31,692 - 127.0.0.1 - - [19/Jan/2025 04:48:31] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:48:42,825 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:48:42,825 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:48:57,716 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:48:57,716 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:49:00,777 - 127.0.0.1 - - [19/Jan/2025 04:49:00] "GET / HTTP/1.1" 200 -
+2025-01-19 04:49:00,796 - 127.0.0.1 - - [19/Jan/2025 04:49:00] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:50:14,448 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:50:14,449 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:50:20,207 - 127.0.0.1 - - [19/Jan/2025 04:50:20] "GET / HTTP/1.1" 200 -
+2025-01-19 04:50:20,221 - 127.0.0.1 - - [19/Jan/2025 04:50:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:50:25,516 - 127.0.0.1 - - [19/Jan/2025 04:50:25] "GET / HTTP/1.1" 200 -
+2025-01-19 04:50:25,824 - 127.0.0.1 - - [19/Jan/2025 04:50:25] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:50:32,171 - 127.0.0.1 - - [19/Jan/2025 04:50:32] "GET / HTTP/1.1" 200 -
+2025-01-19 04:50:32,483 - 127.0.0.1 - - [19/Jan/2025 04:50:32] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:50:40,990 - 127.0.0.1 - - [19/Jan/2025 04:50:40] "GET / HTTP/1.1" 200 -
+2025-01-19 04:50:41,303 - 127.0.0.1 - - [19/Jan/2025 04:50:41] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:51:57,293 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:51:57,293 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:52:00,259 - 127.0.0.1 - - [19/Jan/2025 04:52:00] "GET / HTTP/1.1" 200 -
+2025-01-19 04:52:00,278 - 127.0.0.1 - - [19/Jan/2025 04:52:00] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:52:41,311 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:52:41,311 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:52:46,995 - 127.0.0.1 - - [19/Jan/2025 04:52:46] "GET / HTTP/1.1" 200 -
+2025-01-19 04:52:47,013 - 127.0.0.1 - - [19/Jan/2025 04:52:47] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:52:52,520 - 127.0.0.1 - - [19/Jan/2025 04:52:52] "GET / HTTP/1.1" 200 -
+2025-01-19 04:52:52,832 - 127.0.0.1 - - [19/Jan/2025 04:52:52] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:54:16,410 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:54:16,410 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:54:20,635 - 127.0.0.1 - - [19/Jan/2025 04:54:20] "GET / HTTP/1.1" 200 -
+2025-01-19 04:54:20,652 - 127.0.0.1 - - [19/Jan/2025 04:54:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-01-19 04:55:39,505 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:55:39,507 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:55:46,112 - 127.0.0.1 - - [19/Jan/2025 04:55:46] "GET / HTTP/1.1" 200 -
+2025-01-19 04:55:46,144 - 127.0.0.1 - - [19/Jan/2025 04:55:46] "[33mGET /static/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-01-19 04:56:17,604 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:56:17,605 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:56:20,302 - 127.0.0.1 - - [19/Jan/2025 04:56:20] "GET / HTTP/1.1" 200 -
+2025-01-19 04:57:54,325 - 127.0.0.1 - - [19/Jan/2025 04:57:54] "GET / HTTP/1.1" 200 -
+2025-01-19 04:59:09,146 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 04:59:09,146 - [33mPress CTRL+C to quit[0m
+2025-01-19 04:59:12,634 - 127.0.0.1 - - [19/Jan/2025 04:59:12] "GET /admin HTTP/1.1" 200 -
+2025-01-19 04:59:21,344 - 127.0.0.1 - - [19/Jan/2025 04:59:21] "GET / HTTP/1.1" 200 -
+2025-01-19 04:59:24,679 - 127.0.0.1 - - [19/Jan/2025 04:59:24] "GET /admin HTTP/1.1" 200 -
+2025-01-19 05:00:06,374 - 127.0.0.1 - - [19/Jan/2025 05:00:06] "GET / HTTP/1.1" 200 -
+2025-01-19 05:01:17,271 - 127.0.0.1 - - [19/Jan/2025 05:01:17] "GET / HTTP/1.1" 200 -
+2025-01-19 05:01:18,702 - 127.0.0.1 - - [19/Jan/2025 05:01:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-19 05:01:20,418 - 127.0.0.1 - - [19/Jan/2025 05:01:20] "GET /admin HTTP/1.1" 200 -
+2025-01-19 05:02:32,096 - 127.0.0.1 - - [19/Jan/2025 05:02:32] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:04:16,278 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:04:16,279 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:04:23,089 - 127.0.0.1 - - [19/Jan/2025 05:04:23] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:04:33,713 - 127.0.0.1 - - [19/Jan/2025 05:04:33] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:06:04,173 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:06:04,174 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:06:09,054 - 127.0.0.1 - - [19/Jan/2025 05:06:09] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:08:49,437 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:08:49,437 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:08:53,454 - 127.0.0.1 - - [19/Jan/2025 05:08:53] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:09:55,686 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:09:55,686 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:10:01,601 - 127.0.0.1 - - [19/Jan/2025 05:10:01] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:10:07,707 - 127.0.0.1 - - [19/Jan/2025 05:10:07] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:10:25,770 - 127.0.0.1 - - [19/Jan/2025 05:10:25] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 05:10:42,651 - 127.0.0.1 - - [19/Jan/2025 05:10:42] "GET / HTTP/1.1" 200 -
+2025-01-19 05:10:51,261 - 127.0.0.1 - - [19/Jan/2025 05:10:51] "GET /admin HTTP/1.1" 200 -
+2025-01-19 05:13:24,645 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:13:24,646 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:13:29,850 - 127.0.0.1 - - [19/Jan/2025 05:13:29] "GET /admin HTTP/1.1" 200 -
+2025-01-19 05:14:47,898 - 127.0.0.1 - - [19/Jan/2025 05:14:47] "GET / HTTP/1.1" 200 -
+2025-01-19 05:14:50,602 - 127.0.0.1 - - [19/Jan/2025 05:14:50] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:16:26,429 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:16:26,429 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:16:33,224 - 127.0.0.1 - - [19/Jan/2025 05:16:33] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:16:37,790 - 127.0.0.1 - - [19/Jan/2025 05:16:37] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:16:38,530 - 127.0.0.1 - - [19/Jan/2025 05:16:38] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:16:39,009 - 127.0.0.1 - - [19/Jan/2025 05:16:39] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:16:54,495 - 127.0.0.1 - - [19/Jan/2025 05:16:54] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:16:58,459 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:16:58,460 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:17:00,904 - 127.0.0.1 - - [19/Jan/2025 05:17:00] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:17:06,868 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:17:06,868 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:17:08,582 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:17:08,582 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:17:10,514 - 127.0.0.1 - - [19/Jan/2025 05:17:10] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:17:19,016 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:17:19,016 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:17:20,138 - 127.0.0.1 - - [19/Jan/2025 05:17:20] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:18:36,533 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:18:36,534 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:18:40,779 - 127.0.0.1 - - [19/Jan/2025 05:18:40] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:20:12,941 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:20:12,942 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:20:18,743 - 127.0.0.1 - - [19/Jan/2025 05:20:18] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:20:22,381 - 127.0.0.1 - - [19/Jan/2025 05:20:22] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:20:24,868 - 127.0.0.1 - - [19/Jan/2025 05:20:24] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:20:49,283 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:20:49,284 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:20:51,696 - 127.0.0.1 - - [19/Jan/2025 05:20:51] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:21:27,190 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:21:27,190 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:21:32,599 - 127.0.0.1 - - [19/Jan/2025 05:21:32] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:22:17,574 - 127.0.0.1 - - [19/Jan/2025 05:22:17] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:22:21,892 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:22:21,892 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:22:23,255 - 127.0.0.1 - - [19/Jan/2025 05:22:23] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:24:57,515 - 127.0.0.1 - - [19/Jan/2025 05:24:57] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:25:04,230 - 127.0.0.1 - - [19/Jan/2025 05:25:04] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:25:07,579 - 127.0.0.1 - - [19/Jan/2025 05:25:07] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:25:27,285 - 127.0.0.1 - - [19/Jan/2025 05:25:27] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-19 05:25:27,599 - 127.0.0.1 - - [19/Jan/2025 05:25:27] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:26:23,153 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:26:23,154 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:26:25,397 - 127.0.0.1 - - [19/Jan/2025 05:26:25] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:26:28,357 - 127.0.0.1 - - [19/Jan/2025 05:26:28] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-19 05:26:28,362 - 127.0.0.1 - - [19/Jan/2025 05:26:28] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:26:31,374 - 127.0.0.1 - - [19/Jan/2025 05:26:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-19 05:26:31,683 - 127.0.0.1 - - [19/Jan/2025 05:26:31] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:26:45,043 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:26:45,044 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:26:47,272 - 127.0.0.1 - - [19/Jan/2025 05:26:47] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:26:51,886 - 127.0.0.1 - - [19/Jan/2025 05:26:51] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:28:35,774 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:28:35,774 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:28:39,783 - 127.0.0.1 - - [19/Jan/2025 05:28:39] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-19 05:29:50,076 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:29:50,077 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:29:52,281 - 127.0.0.1 - - [19/Jan/2025 05:29:52] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:29:59,341 - 127.0.0.1 - - [19/Jan/2025 05:29:59] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-19 05:29:59,347 - 127.0.0.1 - - [19/Jan/2025 05:29:59] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:32:20,397 - 127.0.0.1 - - [19/Jan/2025 05:32:20] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:32:22,348 - 127.0.0.1 - - [19/Jan/2025 05:32:22] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:32:25,375 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:32:25,375 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:32:26,965 - 127.0.0.1 - - [19/Jan/2025 05:32:26] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:32:46,772 - 127.0.0.1 - - [19/Jan/2025 05:32:46] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:32:51,292 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:32:51,293 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:32:53,282 - 127.0.0.1 - - [19/Jan/2025 05:32:53] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:33:15,112 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:33:15,112 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:33:17,161 - 127.0.0.1 - - [19/Jan/2025 05:33:17] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:33:22,142 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:33:22,142 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:33:24,515 - 127.0.0.1 - - [19/Jan/2025 05:33:24] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:34:40,193 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:34:40,193 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:34:44,139 - 127.0.0.1 - - [19/Jan/2025 05:34:44] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:34:49,679 - 127.0.0.1 - - [19/Jan/2025 05:34:49] "GET / HTTP/1.1" 200 -
+2025-01-19 05:35:55,371 - 127.0.0.1 - - [19/Jan/2025 05:35:55] "GET / HTTP/1.1" 200 -
+2025-01-19 05:36:00,381 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:36:00,382 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:36:03,360 - 127.0.0.1 - - [19/Jan/2025 05:36:03] "GET / HTTP/1.1" 200 -
+2025-01-19 05:36:33,234 - 127.0.0.1 - - [19/Jan/2025 05:36:33] "GET / HTTP/1.1" 200 -
+2025-01-19 05:36:59,476 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:36:59,476 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:37:01,314 - 127.0.0.1 - - [19/Jan/2025 05:37:01] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:37:20,444 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:37:20,444 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:37:25,468 - 127.0.0.1 - - [19/Jan/2025 05:37:25] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:37:55,981 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:37:55,982 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:37:57,771 - 127.0.0.1 - - [19/Jan/2025 05:37:57] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:39:31,242 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:39:31,242 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:39:33,491 - 127.0.0.1 - - [19/Jan/2025 05:39:33] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:39:36,903 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:39:36,904 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:39:38,906 - 127.0.0.1 - - [19/Jan/2025 05:39:38] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:39:39,426 - 127.0.0.1 - - [19/Jan/2025 05:39:39] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:39:57,168 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:39:57,170 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:39:59,736 - 127.0.0.1 - - [19/Jan/2025 05:39:59] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:01,092 - 127.0.0.1 - - [19/Jan/2025 05:40:01] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:01,317 - 127.0.0.1 - - [19/Jan/2025 05:40:01] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:01,619 - 127.0.0.1 - - [19/Jan/2025 05:40:01] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:01,775 - 127.0.0.1 - - [19/Jan/2025 05:40:01] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:01,967 - 127.0.0.1 - - [19/Jan/2025 05:40:01] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:02,153 - 127.0.0.1 - - [19/Jan/2025 05:40:02] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:02,339 - 127.0.0.1 - - [19/Jan/2025 05:40:02] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:02,503 - 127.0.0.1 - - [19/Jan/2025 05:40:02] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:14,143 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:40:14,144 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:40:15,512 - 127.0.0.1 - - [19/Jan/2025 05:40:15] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:16,214 - 127.0.0.1 - - [19/Jan/2025 05:40:16] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:40:16,820 - 127.0.0.1 - - [19/Jan/2025 05:40:16] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:41:54,580 - 127.0.0.1 - - [19/Jan/2025 05:41:54] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:41:57,488 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:41:57,488 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:41:59,621 - 127.0.0.1 - - [19/Jan/2025 05:41:59] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:42:46,858 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:42:46,859 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:42:49,065 - 127.0.0.1 - - [19/Jan/2025 05:42:49] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:16,880 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:43:16,881 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:43:18,765 - 127.0.0.1 - - [19/Jan/2025 05:43:18] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:19,854 - 127.0.0.1 - - [19/Jan/2025 05:43:19] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:36,605 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:43:36,607 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:43:39,829 - 127.0.0.1 - - [19/Jan/2025 05:43:39] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:40,595 - 127.0.0.1 - - [19/Jan/2025 05:43:40] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:40,987 - 127.0.0.1 - - [19/Jan/2025 05:43:40] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:41,297 - 127.0.0.1 - - [19/Jan/2025 05:43:41] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:41,528 - 127.0.0.1 - - [19/Jan/2025 05:43:41] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:41,831 - 127.0.0.1 - - [19/Jan/2025 05:43:41] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:41,888 - 127.0.0.1 - - [19/Jan/2025 05:43:41] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:43:49,036 - 127.0.0.1 - - [19/Jan/2025 05:43:49] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:46:21,928 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:46:21,928 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:46:28,005 - 127.0.0.1 - - [19/Jan/2025 05:46:28] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:49:23,459 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:49:23,460 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:49:40,342 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:49:40,342 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:49:43,122 - 127.0.0.1 - - [19/Jan/2025 05:49:43] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:49:54,247 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:49:54,248 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:49:56,246 - 127.0.0.1 - - [19/Jan/2025 05:49:56] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:50:11,402 - 127.0.0.1 - - [19/Jan/2025 05:50:11] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:50:29,173 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:50:29,174 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:50:32,125 - 127.0.0.1 - - [19/Jan/2025 05:50:32] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:51:08,935 - 127.0.0.1 - - [19/Jan/2025 05:51:08] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:52:59,848 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:52:59,849 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:53:04,229 - 127.0.0.1 - - [19/Jan/2025 05:53:04] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:53:06,650 - 127.0.0.1 - - [19/Jan/2025 05:53:06] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:53:09,319 - 127.0.0.1 - - [19/Jan/2025 05:53:09] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:53:50,061 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:53:50,061 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:53:56,625 - 127.0.0.1 - - [19/Jan/2025 05:53:56] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:53:58,890 - 127.0.0.1 - - [19/Jan/2025 05:53:58] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:55:20,029 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:55:20,029 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:55:23,264 - 127.0.0.1 - - [19/Jan/2025 05:55:23] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:55:54,333 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:55:54,334 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:55:57,288 - 127.0.0.1 - - [19/Jan/2025 05:55:57] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:56:18,561 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 05:56:18,562 - [33mPress CTRL+C to quit[0m
+2025-01-19 05:56:21,095 - 127.0.0.1 - - [19/Jan/2025 05:56:21] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:56:22,571 - 127.0.0.1 - - [19/Jan/2025 05:56:22] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:56:30,663 - 127.0.0.1 - - [19/Jan/2025 05:56:30] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:56:40,702 - 127.0.0.1 - - [19/Jan/2025 05:56:40] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:56:44,246 - 127.0.0.1 - - [19/Jan/2025 05:56:44] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:57:13,083 - 127.0.0.1 - - [19/Jan/2025 05:57:13] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:57:18,941 - 127.0.0.1 - - [19/Jan/2025 05:57:18] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:57:47,341 - 127.0.0.1 - - [19/Jan/2025 05:57:47] "GET /register HTTP/1.1" 200 -
+2025-01-19 05:57:51,713 - 127.0.0.1 - - [19/Jan/2025 05:57:51] "GET /admin HTTP/1.1" 200 -
+2025-01-19 05:58:02,868 - 127.0.0.1 - - [19/Jan/2025 05:58:02] "GET / HTTP/1.1" 200 -
+2025-01-19 05:58:20,199 - 127.0.0.1 - - [19/Jan/2025 05:58:20] "GET / HTTP/1.1" 200 -
+2025-01-19 05:58:56,170 - 127.0.0.1 - - [19/Jan/2025 05:58:56] "GET / HTTP/1.1" 200 -
+2025-01-19 05:58:59,061 - 127.0.0.1 - - [19/Jan/2025 05:58:59] "GET / HTTP/1.1" 200 -
+2025-01-19 05:59:03,208 - 127.0.0.1 - - [19/Jan/2025 05:59:03] "GET / HTTP/1.1" 200 -
+2025-01-19 05:59:18,251 - 127.0.0.1 - - [19/Jan/2025 05:59:18] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:59:20,893 - 127.0.0.1 - - [19/Jan/2025 05:59:20] "GET /admin HTTP/1.1" 200 -
+2025-01-19 05:59:43,486 - 127.0.0.1 - - [19/Jan/2025 05:59:43] "GET /login HTTP/1.1" 200 -
+2025-01-19 05:59:58,904 - 127.0.0.1 - - [19/Jan/2025 05:59:58] "GET /register HTTP/1.1" 200 -
+2025-01-19 06:00:07,587 - 127.0.0.1 - - [19/Jan/2025 06:00:07] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:01:02,093 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:01:02,093 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:01:03,299 - 127.0.0.1 - - [19/Jan/2025 06:01:03] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:01:51,567 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:01:51,568 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:01:52,547 - 127.0.0.1 - - [19/Jan/2025 06:01:52] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:02:15,539 - 127.0.0.1 - - [19/Jan/2025 06:02:15] "GET / HTTP/1.1" 200 -
+2025-01-19 06:02:21,398 - 127.0.0.1 - - [19/Jan/2025 06:02:21] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:02:25,455 - 127.0.0.1 - - [19/Jan/2025 06:02:25] "GET / HTTP/1.1" 200 -
+2025-01-19 06:03:07,257 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:03:07,258 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:03:08,173 - 127.0.0.1 - - [19/Jan/2025 06:03:08] "GET / HTTP/1.1" 200 -
+2025-01-19 06:03:13,715 - 127.0.0.1 - - [19/Jan/2025 06:03:13] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:03:34,158 - 127.0.0.1 - - [19/Jan/2025 06:03:34] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:05:15,101 - 127.0.0.1 - - [19/Jan/2025 06:05:15] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:06:07,358 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:06:07,359 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:06:09,353 - 127.0.0.1 - - [19/Jan/2025 06:06:09] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:06:13,243 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:06:13,243 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:06:15,990 - 127.0.0.1 - - [19/Jan/2025 06:06:15] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:06:53,380 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:06:53,380 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:07:26,250 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:07:26,251 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:07:28,611 - 127.0.0.1 - - [19/Jan/2025 06:07:28] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:08:17,373 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:08:17,374 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:08:19,055 - 127.0.0.1 - - [19/Jan/2025 06:08:19] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:08:49,544 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:08:49,545 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:08:52,460 - 127.0.0.1 - - [19/Jan/2025 06:08:52] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:08:58,154 - 127.0.0.1 - - [19/Jan/2025 06:08:58] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:09:02,220 - 127.0.0.1 - - [19/Jan/2025 06:09:02] "GET / HTTP/1.1" 200 -
+2025-01-19 06:09:06,523 - 127.0.0.1 - - [19/Jan/2025 06:09:06] "GET / HTTP/1.1" 200 -
+2025-01-19 06:09:07,429 - 127.0.0.1 - - [19/Jan/2025 06:09:07] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:09:13,944 - 127.0.0.1 - - [19/Jan/2025 06:09:13] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:09:16,158 - 127.0.0.1 - - [19/Jan/2025 06:09:16] "GET /login HTTP/1.1" 200 -
+2025-01-19 06:09:25,051 - 127.0.0.1 - - [19/Jan/2025 06:09:25] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:10:48,953 - 127.0.0.1 - - [19/Jan/2025 06:10:48] "GET / HTTP/1.1" 200 -
+2025-01-19 06:10:51,660 - 127.0.0.1 - - [19/Jan/2025 06:10:51] "GET /login HTTP/1.1" 200 -
+2025-01-19 06:11:03,447 - 127.0.0.1 - - [19/Jan/2025 06:11:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-19 06:11:03,767 - 127.0.0.1 - - [19/Jan/2025 06:11:03] "GET /login HTTP/1.1" 200 -
+2025-01-19 06:11:05,862 - 127.0.0.1 - - [19/Jan/2025 06:11:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-19 06:11:05,869 - 127.0.0.1 - - [19/Jan/2025 06:11:05] "GET /login HTTP/1.1" 200 -
+2025-01-19 06:13:15,700 - 127.0.0.1 - - [19/Jan/2025 06:13:15] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:13:18,843 - 127.0.0.1 - - [19/Jan/2025 06:13:18] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:14:35,903 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:14:35,903 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:14:44,909 - 127.0.0.1 - - [19/Jan/2025 06:14:44] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:15:20,103 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:15:20,103 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:15:21,082 - 127.0.0.1 - - [19/Jan/2025 06:15:21] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:17:17,089 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:17:17,090 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:17:19,536 - 127.0.0.1 - - [19/Jan/2025 06:17:19] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:18:23,746 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:18:23,746 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:18:26,703 - 127.0.0.1 - - [19/Jan/2025 06:18:26] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:19:16,626 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:19:16,627 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:19:18,602 - 127.0.0.1 - - [19/Jan/2025 06:19:18] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:20:03,337 - 127.0.0.1 - - [19/Jan/2025 06:20:03] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:20:08,447 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:20:08,447 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:20:10,224 - 127.0.0.1 - - [19/Jan/2025 06:20:10] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:21:49,437 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:21:49,437 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:21:52,160 - 127.0.0.1 - - [19/Jan/2025 06:21:52] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:22:10,626 - 127.0.0.1 - - [19/Jan/2025 06:22:10] "GET /login HTTP/1.1" 200 -
+2025-01-19 06:22:13,695 - 127.0.0.1 - - [19/Jan/2025 06:22:13] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:22:18,256 - 127.0.0.1 - - [19/Jan/2025 06:22:18] "GET /admin/tally HTTP/1.1" 200 -
+2025-01-19 06:22:23,105 - 127.0.0.1 - - [19/Jan/2025 06:22:23] "GET / HTTP/1.1" 200 -
+2025-01-19 06:22:47,543 - 127.0.0.1 - - [19/Jan/2025 06:22:47] "GET /admin/login HTTP/1.1" 200 -
+2025-01-19 06:24:33,756 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:24:33,756 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:24:37,145 - 127.0.0.1 - - [19/Jan/2025 06:24:37] "GET /admin/login HTTP/1.1" 200 -
+2025-01-19 06:24:41,726 - 127.0.0.1 - - [19/Jan/2025 06:24:41] "POST /admin/login HTTP/1.1" 200 -
+2025-01-19 06:25:07,748 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:25:07,749 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:25:11,506 - 127.0.0.1 - - [19/Jan/2025 06:25:11] "POST /admin/login HTTP/1.1" 200 -
+2025-01-19 06:26:38,028 - 127.0.0.1 - - [19/Jan/2025 06:26:38] "GET /register/validate HTTP/1.1" 200 -
+2025-01-19 06:28:50,792 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:28:50,793 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:28:53,630 - 127.0.0.1 - - [19/Jan/2025 06:28:53] "GET /register/validate HTTP/1.1" 200 -
+2025-01-19 06:29:12,993 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:29:12,993 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:29:15,044 - 127.0.0.1 - - [19/Jan/2025 06:29:15] "GET /register/validate HTTP/1.1" 200 -
+2025-01-19 06:29:22,182 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:29:22,182 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:29:23,667 - 127.0.0.1 - - [19/Jan/2025 06:29:23] "GET /register/validate HTTP/1.1" 200 -
+2025-01-19 06:30:24,896 - 127.0.0.1 - - [19/Jan/2025 06:30:24] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:31:38,082 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:31:38,083 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:31:42,845 - 127.0.0.1 - - [19/Jan/2025 06:31:42] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:33:32,597 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:33:32,597 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:33:36,377 - 127.0.0.1 - - [19/Jan/2025 06:33:36] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:35:19,793 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:35:19,794 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:35:23,535 - 127.0.0.1 - - [19/Jan/2025 06:35:23] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:41:27,966 - 127.0.0.1 - - [19/Jan/2025 06:41:27] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:41:40,830 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:41:40,831 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:42:08,974 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:42:08,974 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:43:12,446 - 127.0.0.1 - - [19/Jan/2025 06:43:12] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:45:01,221 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:45:01,221 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:45:03,429 - 127.0.0.1 - - [19/Jan/2025 06:45:03] "[31m[1mGET /voting HTTP/1.1[0m" 400 -
+2025-01-19 06:46:09,403 - 127.0.0.1 - - [19/Jan/2025 06:46:09] "[31m[1mGET /voting HTTP/1.1[0m" 400 -
+2025-01-19 06:46:17,211 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:46:17,212 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:46:17,499 - 127.0.0.1 - - [19/Jan/2025 06:46:17] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:46:26,328 - 127.0.0.1 - - [19/Jan/2025 06:46:26] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:46:33,806 - 127.0.0.1 - - [19/Jan/2025 06:46:33] "GET /admin/elections HTTP/1.1" 200 -
+2025-01-19 06:46:57,208 - 127.0.0.1 - - [19/Jan/2025 06:46:57] "[32mPOST /admin/elections HTTP/1.1[0m" 302 -
+2025-01-19 06:46:57,505 - 127.0.0.1 - - [19/Jan/2025 06:46:57] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:47:13,557 - 127.0.0.1 - - [19/Jan/2025 06:47:13] "POST /admin HTTP/1.1" 200 -
+2025-01-19 06:47:17,645 - 127.0.0.1 - - [19/Jan/2025 06:47:17] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:47:27,430 - 127.0.0.1 - - [19/Jan/2025 06:47:27] "POST /admin HTTP/1.1" 200 -
+2025-01-19 06:47:30,200 - 127.0.0.1 - - [19/Jan/2025 06:47:30] "GET /admin HTTP/1.1" 200 -
+2025-01-19 06:47:35,535 - 127.0.0.1 - - [19/Jan/2025 06:47:35] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:51:16,589 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 06:51:16,590 - [33mPress CTRL+C to quit[0m
+2025-01-19 06:58:34,224 - 127.0.0.1 - - [19/Jan/2025 06:58:34] "GET /voting HTTP/1.1" 200 -
+2025-01-19 06:58:41,073 - 127.0.0.1 - - [19/Jan/2025 06:58:41] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:04:00,049 - 127.0.0.1 - - [19/Jan/2025 07:04:00] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:04:05,150 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:04:05,150 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:04:17,638 - 127.0.0.1 - - [19/Jan/2025 07:04:17] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:07:06,790 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:07:06,791 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:07:12,614 - 127.0.0.1 - - [19/Jan/2025 07:07:12] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:09:21,802 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:09:21,803 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:09:26,541 - 127.0.0.1 - - [19/Jan/2025 07:09:26] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:10:23,681 - 127.0.0.1 - - [19/Jan/2025 07:10:23] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:12:53,564 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:12:53,565 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:13:01,024 - 127.0.0.1 - - [19/Jan/2025 07:13:01] "[35m[1mGET /voting HTTP/1.1[0m" 500 -
+2025-01-19 07:14:19,950 - 127.0.0.1 - - [19/Jan/2025 07:14:19] "[35m[1mGET /voting HTTP/1.1[0m" 500 -
+2025-01-19 07:14:35,406 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:14:35,406 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:14:41,339 - 127.0.0.1 - - [19/Jan/2025 07:14:41] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:16:08,967 - 127.0.0.1 - - [19/Jan/2025 07:16:08] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:19:01,290 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:19:01,291 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:19:13,199 - 127.0.0.1 - - [19/Jan/2025 07:19:13] "[35m[1mGET /voting HTTP/1.1[0m" 500 -
+2025-01-19 07:22:55,867 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:22:55,868 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:23:12,010 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:23:12,011 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:23:45,993 - 127.0.0.1 - - [19/Jan/2025 07:23:45] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:24:20,222 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:24:20,223 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:26:59,511 - 127.0.0.1 - - [19/Jan/2025 07:26:59] "[35m[1mGET /voting HTTP/1.1[0m" 500 -
+2025-01-19 07:30:13,814 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:30:13,814 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:30:27,922 - 127.0.0.1 - - [19/Jan/2025 07:30:27] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:32:29,499 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:32:29,500 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:32:39,383 - 127.0.0.1 - - [19/Jan/2025 07:32:39] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:33:02,506 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:33:02,506 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:33:03,555 - 127.0.0.1 - - [19/Jan/2025 07:33:03] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:35:03,284 - 127.0.0.1 - - [19/Jan/2025 07:35:03] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:35:15,344 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:35:15,345 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:35:20,082 - 127.0.0.1 - - [19/Jan/2025 07:35:20] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:36:46,030 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:36:46,031 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:36:50,355 - 127.0.0.1 - - [19/Jan/2025 07:36:50] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:37:08,335 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:37:08,335 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:37:17,485 - 127.0.0.1 - - [19/Jan/2025 07:37:17] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:39:49,110 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:39:49,112 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:39:53,633 - 127.0.0.1 - - [19/Jan/2025 07:39:53] "[35m[1mGET /voting HTTP/1.1[0m" 500 -
+2025-01-19 07:40:04,393 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:40:04,393 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:41:26,509 - 127.0.0.1 - - [19/Jan/2025 07:41:26] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:43:12,027 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:43:12,028 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:43:22,322 - 127.0.0.1 - - [19/Jan/2025 07:43:22] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:44:11,473 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:44:11,474 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:44:12,598 - 127.0.0.1 - - [19/Jan/2025 07:44:12] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:44:19,537 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:44:19,537 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:44:21,876 - 127.0.0.1 - - [19/Jan/2025 07:44:21] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:44:37,523 - 127.0.0.1 - - [19/Jan/2025 07:44:37] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:44:44,042 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:44:44,043 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:44:44,254 - 127.0.0.1 - - [19/Jan/2025 07:44:44] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:46:54,409 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:46:54,409 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:47:00,906 - 127.0.0.1 - - [19/Jan/2025 07:47:00] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:47:31,886 - 127.0.0.1 - - [19/Jan/2025 07:47:31] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:47:36,275 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:47:36,276 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:47:39,200 - 127.0.0.1 - - [19/Jan/2025 07:47:39] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:48:04,798 - 127.0.0.1 - - [19/Jan/2025 07:48:04] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:48:08,778 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 07:48:08,778 - [33mPress CTRL+C to quit[0m
+2025-01-19 07:48:09,294 - 127.0.0.1 - - [19/Jan/2025 07:48:09] "GET /voting HTTP/1.1" 200 -
+2025-01-19 07:58:18,085 - 127.0.0.1 - - [19/Jan/2025 07:58:18] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:00:25,073 - 127.0.0.1 - - [19/Jan/2025 08:00:25] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:03:43,579 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:03:43,580 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:03:48,430 - 127.0.0.1 - - [19/Jan/2025 08:03:48] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:04:22,766 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:04:22,766 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:04:25,468 - 127.0.0.1 - - [19/Jan/2025 08:04:25] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:06:09,700 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:06:09,700 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:06:15,366 - 127.0.0.1 - - [19/Jan/2025 08:06:15] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:06:47,667 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:06:47,667 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:06:52,330 - 127.0.0.1 - - [19/Jan/2025 08:06:52] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:06:58,150 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:06:58,151 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:06:59,014 - 127.0.0.1 - - [19/Jan/2025 08:06:59] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:07:30,329 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:07:30,329 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:07:35,823 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:07:35,824 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:07:39,131 - 127.0.0.1 - - [19/Jan/2025 08:07:39] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:08:19,096 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:08:19,096 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:08:25,555 - 127.0.0.1 - - [19/Jan/2025 08:08:25] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:08:43,664 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:08:43,665 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:08:44,603 - 127.0.0.1 - - [19/Jan/2025 08:08:44] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:09:13,848 - 127.0.0.1 - - [19/Jan/2025 08:09:13] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:09:18,942 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:09:18,942 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:09:20,712 - 127.0.0.1 - - [19/Jan/2025 08:09:20] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:09:54,734 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:09:54,735 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:10:01,578 - 127.0.0.1 - - [19/Jan/2025 08:10:01] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:11:45,751 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:11:45,752 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:11:51,788 - 127.0.0.1 - - [19/Jan/2025 08:11:51] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:12:24,207 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:12:24,207 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:12:29,235 - 127.0.0.1 - - [19/Jan/2025 08:12:29] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:12:42,676 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:12:42,677 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:12:45,474 - 127.0.0.1 - - [19/Jan/2025 08:12:45] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:12:59,597 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:12:59,597 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:13:03,346 - 127.0.0.1 - - [19/Jan/2025 08:13:03] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:13:27,583 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:13:27,585 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:13:29,536 - 127.0.0.1 - - [19/Jan/2025 08:13:29] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:14:19,186 - 127.0.0.1 - - [19/Jan/2025 08:14:19] "GET / HTTP/1.1" 200 -
+2025-01-19 08:14:21,268 - 127.0.0.1 - - [19/Jan/2025 08:14:21] "GET /admin HTTP/1.1" 200 -
+2025-01-19 08:14:28,080 - 127.0.0.1 - - [19/Jan/2025 08:14:28] "GET /login HTTP/1.1" 200 -
+2025-01-19 08:14:29,970 - 127.0.0.1 - - [19/Jan/2025 08:14:29] "GET / HTTP/1.1" 200 -
+2025-01-19 08:14:41,746 - 127.0.0.1 - - [19/Jan/2025 08:14:41] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:15:00,432 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:15:00,432 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:15:05,551 - 127.0.0.1 - - [19/Jan/2025 08:15:05] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:15:22,623 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:15:22,624 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:15:25,815 - 127.0.0.1 - - [19/Jan/2025 08:15:25] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:16:32,403 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:16:32,404 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:16:36,367 - 127.0.0.1 - - [19/Jan/2025 08:16:36] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:16:46,399 - 127.0.0.1 - - [19/Jan/2025 08:16:46] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:17:04,091 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-19 08:17:04,092 - [33mPress CTRL+C to quit[0m
+2025-01-19 08:17:07,338 - 127.0.0.1 - - [19/Jan/2025 08:17:07] "GET /voting HTTP/1.1" 200 -
+2025-01-19 08:17:24,968 - 127.0.0.1 - - [19/Jan/2025 08:17:24] "GET / HTTP/1.1" 200 -

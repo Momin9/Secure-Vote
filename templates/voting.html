@@ -1,30 +1,179 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container mt-5">
-    <h2 class="text-center">Cast Your Vote</h2>
-
-    <!-- Message Section -->
-    {% if message %}
-    <div class="mt-3 alert alert-info">
-        {{ message }}
-    </div>
-    {% endif %}
-
-    <form method="POST" action="{{ url_for('voting', election_id=election_id) }}">
-        <div class="row">
-            {% for candidate in candidates %}
-            <div class="col-md-4">
-                <div class="card shadow-sm mb-4">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">{{ candidate[1] }}</h5>
-                        <p class="card-text">{{ candidate[2] }}</p>
-                        <button type="submit" name="candidate_id" value="{{ candidate[0] }}" class="btn btn-primary">Vote</button>
-                    </div>
-                </div>
+    <div class="voting-page">
+        <div class="container py-5">
+            <!-- Page Header -->
+            <div class="text-center mb-5 animate__animated animate__fadeInUp">
+                <h1 class="fw-bold text-white">Cast Your Vote</h1>
+                <p class="text-light lead">Participate in shaping the future by voting for your favorite candidate. Your opinion matters!</p>
             </div>
-            {% endfor %}
+
+            <!-- Message Section -->
+            {% if message %}
+                <div class="alert alert-info text-center animate__animated animate__bounceIn">
+                    {{ message }}
+                </div>
+            {% endif %}
+
+            <!-- Voting Form -->
+            <form method="POST" action="{{ url_for('voting', election_id=election_id) }}">
+                <div class="row justify-content-center">
+                    {% for candidate in candidates %}
+                        <div class="col-lg-6 mb-4">
+                            <!-- Centered Election Details -->
+                            <div class="candidate-item text-center mb-4 p-3 bg-light text-dark rounded shadow-lg" data-election-id="{{ candidate[3] }}">
+                                <p class="fw-bold text-primary">Election Name: <span class="text-dark">{{ candidate[5] }}</span></p>
+                                <p class="fw-bold text-primary">Election Start From: <span class="text-dark">{{ candidate[7] }}</span></p>
+                                <p class="fw-bold text-primary">Election Ends On: <span class="text-dark">{{ candidate[8] }}</span></p>
+                                <p class="fw-bold text-primary">Description: <span class="text-dark">{{ candidate[6] }}</span></p>
+                            </div>
+
+                            <!-- Candidate Card Below -->
+                            <div class="card shadow-lg border-0 animate__animated animate__zoomIn">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fw-bold text-dark">{{ candidate[1] }}</h5>
+                                    <p class="card-text text-muted">{{ candidate[2] }}</p>
+                                    <button type="submit" name="candidate_id" value="{{ candidate[0] }}"
+                                            class="btn btn-primary btn-vote w-100 rounded-pill py-2 fw-bold animate__animated animate__pulse animate__delay-1s">
+                                        <i class="fas fa-vote-yea me-2"></i> Vote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </form>
+
+            <!-- Additional Information -->
+            <div class="mt-5 text-center">
+                <h3 class="text-white animate__animated animate__fadeInUp">Why Your Vote Matters</h3>
+                <p class="text-light animate__animated animate__fadeInUp animate__delay-1s">
+                    Voting is a powerful way to have your say in important decisions.
+                    Your vote helps choose the best leaders to represent your interests and values.
+                    Every vote counts!
+                </p>
+            </div>
         </div>
-    </form>
-</div>
+    </div>
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .voting-page {
+            padding: 2rem 0;
+            background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+            min-height: 100vh;
+        }
+
+        h1, h3 {
+            color: #ffffff;
+        }
+
+        .candidate-item {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            border-radius: 15px;
+            background-color: #ffffff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-vote {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: #fff;
+            border: none;
+            transition: background 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-vote:hover {
+            background: linear-gradient(135deg, #0984e3, #74b9ff);
+            transform: scale(1.05);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+        }
+
+        .alert-info {
+            background-color: #d9edf7;
+            color: #31708f;
+            border-radius: 10px;
+            padding: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .container .row {
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card-title {
+            color: #2d3436;
+        }
+
+        .card-text {
+            color: #636e72;
+        }
+
+        .text-warning {
+            color: #ffdd57 !important;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Add subtle animations to text */
+        h1, h3, .card-title {
+            animation: fadeInUp 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <!-- Include Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script>
+        // Initialize a Set to track which election IDs have been shown
+        let displayedElections = new Set();
+
+        // Get all the candidate items
+        let candidateItems = document.querySelectorAll('.candidate-item');
+
+        // Iterate over each candidate item and hide duplicates based on the election ID (candidate[3])
+        candidateItems.forEach(item => {
+            let electionId = item.getAttribute('data-election-id');
+
+            // If this election ID has not been displayed yet, show it and add it to the set
+            if (!displayedElections.has(electionId)) {
+                displayedElections.add(electionId);
+            } else {
+                // Hide the duplicate election details
+                item.style.display = 'none';
+            }
+        });
+    </script>
 {% endblock %}

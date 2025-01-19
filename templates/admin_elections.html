@@ -1,26 +1,122 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container mt-5">
-    <h2 class="text-primary mb-4">Create a New Election</h2>
-    <form method="POST" class="needs-validation" novalidate>
-        <div class="mb-3">
-            <label for="name" class="form-label">Election Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Enter election name" required>
+    <div class="container mt-5">
+        <!-- Header Section -->
+        <div class="text-center mb-5 animate__animated animate__fadeInDown">
+            <h2 class="text-white fw-bold">Create a New Election</h2>
+            <p class="text-white">Set up your election details to get started.</p>
         </div>
-        <div class="mb-3">
-            <label for="description" class="form-label">Description</label>
-            <textarea class="form-control" id="description" name="description" placeholder="Enter election description" rows="4"></textarea>
+
+        <!-- Form Section -->
+        <div class="card shadow-lg border-0 animate__animated animate__zoomIn">
+            <div class="card-body p-5" style="background: linear-gradient(to right, #3D5AFE, #F50057);">
+                <form method="POST" class="needs-validation" novalidate>
+                    <!-- Election Name -->
+                    <div class="mb-4">
+                        <label for="name" class="form-label fw-semibold" style="color: white;">Election Name</label>
+                        <input
+                                type="text"
+                                class="form-control form-control-lg rounded-pill shadow-sm"
+                                id="name"
+                                name="name"
+                                placeholder="Enter election name"
+                                required>
+                        <div class="invalid-feedback">Please provide a valid election name.</div>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="mb-4">
+                        <label for="description" class="form-label fw-semibold" style="color: white;">Description</label>
+                        <textarea
+                                class="form-control shadow-sm"
+                                id="description"
+                                name="description"
+                                placeholder="Enter election description"
+                                rows="4"></textarea>
+                    </div>
+
+                    <!-- Start Date -->
+                    <div class="mb-4">
+                        <label for="start_date" class="form-label fw-semibold" style="color: white;">Election Start Date</label>
+                        <input
+                                type="date"
+                                class="form-control form-control-lg rounded-pill shadow-sm"
+                                id="start_date"
+                                name="start_date"
+                                required>
+                    </div>
+
+                    <!-- End Date -->
+                    <div class="mb-4">
+                        <label for="end_date" class="form-label fw-semibold" style="color: white;">Election End Date</label>
+                        <input
+                                type="date"
+                                class="form-control form-control-lg rounded-pill shadow-sm"
+                                id="end_date"
+                                name="end_date"
+                                required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button
+                            type="submit"
+                            class="btn btn-success btn-lg w-100 rounded-pill shadow-lg fw-bold py-2 animate__animated animate__pulse animate__infinite">
+                        <i class="fas fa-plus-circle me-2"></i>Create Election
+                    </button>
+                </form>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="date" class="form-label">Election Start Date</label>
-            <label for="start_date"></label><input type="date" class="form-control" id="start_date" name="start_date" required>
-        </div>
-        <div class="mb-3">
-            <label for="date" class="form-label">Election End Date</label>
-            <label for="end_date"></label><input type="date" class="form-control" id="end_date" name="end_date" required>
-        </div>
-        <button type="submit" class="btn btn-success">Create Election</button>
-    </form>
-</div>
+    </div>
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background: linear-gradient(to right, #3D5AFE, #F50057);
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .card {
+            border-radius: 20px;
+            background: #ffffff;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #55efc4, #00b894);
+            border: none;
+        }
+
+        .btn-success:hover {
+            background: linear-gradient(135deg, #00b894, #55efc4);
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        .form-control {
+            border: 1px solid #ced4da;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+
+        .form-control:focus {
+            box-shadow: 0 0 8px rgba(81, 203, 238, 0.8);
+            border: 1px solid rgba(81, 203, 238, 0.8);
+        }
+
+        .form-label {
+            font-size: 1.1rem;
+            color: #555;
+        }
+    </style>
+
+    <!-- Include Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 {% endblock %}

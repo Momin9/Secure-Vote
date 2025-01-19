@@ -1,26 +1,116 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<!-- Hero Section -->
 <div class="hero text-center text-white py-5" style="background: linear-gradient(to right, #3D5AFE, #F50057);">
     <div class="container">
-        <h1 class="display-4">Welcome to SecureVote</h1>
-        <p class="lead">Your voice matters. Make it count!</p>
+        <h1 id="hero-title" class="display-3 fw-bold animate-fade-in">Welcome to <span style="color: #FFD700;">SecureVote</span></h1>
+        <p id="hero-lead" class="lead animate-fade-in">Your voice matters. Make it count!</p>
+        <a id="hero-button" href="#cta-section" class="btn btn-light btn-lg mt-3 shadow-sm animate-bounce-in">Get Started</a>
     </div>
 </div>
 
-<div class="cta-section py-5 bg-light">
+<!-- Call-to-Action Section -->
+<div id="cta-section" class="cta-section py-5 bg-light">
     <div class="container text-center">
-        <div class="row">
-            <div class="col-md-4 mb-3">
-                <a href="{{ url_for('voter_register') }}" class="btn btn-primary btn-lg w-100">Register as a Voter</a>
+        <h2 class="mb-4 fw-bold text-primary animate-zoom-in">Choose Your Path</h2>
+        <p class="text-secondary mb-5 animate-fade-in">Select an option below to begin your journey with SecureVote.</p>
+        <div class="row g-4">
+            <div class="col-md-4 animate-fade-right">
+                <div class="card border-0 shadow">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-plus fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Register as a Voter</h5>
+                        <p class="card-text text-secondary">Join SecureVote today and make your voice heard.</p>
+                        <a href="{{ url_for('voter_register') }}" class="btn btn-primary btn-lg w-100">Register</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <a href="{{ url_for('voter_login') }}" class="btn btn-success btn-lg w-100">Login as a Voter</a>
+            <div class="col-md-4 animate-fade-up">
+                <div class="card border-0 shadow">
+                    <div class="card-body text-center">
+                        <i class="fas fa-sign-in-alt fa-3x text-success mb-3"></i>
+                        <h5 class="card-title">Login as a Voter</h5>
+                        <p class="card-text text-secondary">Already registered? Log in to cast your vote securely.</p>
+                        <a href="{{ url_for('voter_login') }}" class="btn btn-success btn-lg w-100">Login</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <a href="{{ url_for('admin') }}" class="btn btn-warning btn-lg w-100">Admin Login</a>
+            <div class="col-md-4 animate-fade-left">
+                <div class="card border-0 shadow">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-shield fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title">Admin Login</h5>
+                        <p class="card-text text-secondary">Manage elections and oversee the voting process.</p>
+                        <a href="{{ url_for('admin') }}" class="btn btn-warning btn-lg w-100">Admin</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Custom Animation Styles -->
+<style>
+    @keyframes fadeIn {
+        0% { opacity: 0; transform: translateY(-20px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounceIn {
+        0%, 100% { transform: scale(0.9); }
+        50% { transform: scale(1.1); }
+    }
+
+    @keyframes zoomIn {
+        0% { transform: scale(0.8); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes fadeLeft {
+        0% { opacity: 0; transform: translateX(-20px); }
+        100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeRight {
+        0% { opacity: 0; transform: translateX(20px); }
+        100% { opacity: 1; transform: translateX(0); }
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 1.5s ease-out forwards;
+    }
+
+    .animate-bounce-in {
+        animation: bounceIn 2s ease-out forwards;
+    }
+
+    .animate-zoom-in {
+        animation: zoomIn 1.5s ease-out forwards;
+    }
+
+    .animate-fade-left {
+        animation: fadeLeft 1.5s ease-out forwards;
+    }
+
+    .animate-fade-right {
+        animation: fadeRight 1.5s ease-out forwards;
+    }
+
+    .animate-fade-up {
+        animation: fadeIn 1.5s ease-out forwards;
+    }
+</style>
+
+<!-- JavaScript to Remove Animation Classes -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[class*='animate']");
+        setTimeout(() => {
+            animatedElements.forEach(el => {
+                el.classList.remove(...Array.from(el.classList).filter(cls => cls.startsWith('animate')));
+            });
+        }, 2000); // Ensure animation runs before removing
+    });
+</script>
 {% endblock %}

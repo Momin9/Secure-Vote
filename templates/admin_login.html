@@ -1,23 +1,103 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <h2 class="text-primary text-center mb-4">Admin Login</h2>
-            <p class="text-muted text-center">Login to access the admin panel.</p>
-            <form method="POST" action="{{ url_for('admin_login') }}" class="needs-validation" novalidate>
-                <div class="mb-3">
-                    <label for="admin_id" class="form-label">Admin ID</label>
-                    <input type="text" class="form-control" id="admin_id" name="admin_id" placeholder="Enter your Admin ID" required>
+<div class="login-page">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Login Header -->
+                <div class="text-center mb-4">
+                    <h2 class="text-white fw-bold animate__animated animate__fadeInDown">Admin Login</h2>
+                    <p class="text-white">Access the admin panel by logging in below.</p>
                 </div>
-                <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+
+                <!-- Login Form -->
+                <div class="card shadow-lg border-0 animate__animated animate__zoomIn">
+                    <div class="card-body p-4">
+                        <form method="POST" action="{{ url_for('admin_login') }}" class="needs-validation" novalidate>
+                            <!-- Admin ID Field -->
+                            <div class="mb-3">
+                                <label for="admin_id" class="form-label fw-semibold">Admin ID</label>
+                                <input type="text" class="form-control rounded-pill" id="admin_id" name="admin_id" placeholder="Enter your Admin ID" required>
+                                <div class="invalid-feedback">
+                                    Please enter your Admin ID.
+                                </div>
+                            </div>
+
+                            <!-- Password Field -->
+                            <div class="mb-3">
+                                <label for="password" class="form-label fw-semibold">Password</label>
+                                <input type="password" class="form-control rounded-pill" id="password" name="password" placeholder="Enter your password" required>
+                                <div class="invalid-feedback">
+                                    Password is required.
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary w-100 rounded-pill fw-bold py-2 mt-3">
+                                <i class="fas fa-sign-in-alt me-2"></i> Login
+                            </button>
+                        </form>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Login</button>
-            </form>
+            </div>
         </div>
     </div>
 </div>
+
+<!-- Custom Styles -->
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .login-page {
+        padding: 2rem;
+        background: linear-gradient(to right, #3D5AFE, #F50057);
+        display: flex;
+        margin: -70px;
+        border-radius: 3%;
+    }
+
+    .card {
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #6c5ce7, #0984e3);
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #0984e3, #6c5ce7);
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+    .form-control {
+        border: 1px solid #ced4da;
+        padding: 0.75rem;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 8px rgba(81, 203, 238, 0.8);
+        border: 1px solid rgba(81, 203, 238, 0.8);
+    }
+
+    .invalid-feedback {
+        display: none;
+    }
+
+    .form-control:invalid ~ .invalid-feedback {
+        display: block;
+        color: #e74c3c;
+    }
+</style>
+
+<!-- Include Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!-- Include Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 {% endblock %}

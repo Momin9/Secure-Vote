@@ -2,28 +2,200 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h2 class="text-primary mb-4">Vote Tally</h2>
-    <div class="table-responsive">
-        <table class="table table-striped table-bordered">
-            <thead class="table-dark">
-                <tr>
-                    <th>Candidate ID</th>
-                    <th>Name</th>
-                    <th>Party</th>
-                    <th>Votes</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for candidate_id, (name, party, votes) in vote_tally.items() %}
-                <tr>
-                    <td>{{ candidate_id }}</td>
-                    <td>{{ name }}</td>
-                    <td>{{ party }}</td>
-                    <td>{{ votes }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+    <!-- Header Section -->
+    <div class="text-center mb-5">
+        <h1 class="display-4 text-white fw-bold">Vote Tally Dashboard</h1>
+        <p class="text-white">A comprehensive view of candidate votes</p>
+    </div>
+
+    <!-- Candidate Vote Table -->
+    <div class="card shadow-lg mb-5">
+        <div class="card-header bg-gradient text-white text-center" style="background: linear-gradient(45deg, #007bff, #6610f2);">
+            <h3>Candidate Vote Details</h3>
+        </div>
+        <div class="card-body p-4">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped align-middle">
+                    <thead class="table-primary text-dark">
+                        <tr>
+                            <th class="text-center">Candidate ID</th>
+                            <th>Name</th>
+                            <th>Party</th>
+                            <th class="text-center">Votes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for candidate_id, (name, party, votes) in vote_tally.items() %}
+                        <tr>
+                            <td class="text-center">{{ candidate_id }}</td>
+                            <td>{{ name }}</td>
+                            <td>{{ party }}</td>
+                            <td class="text-center fw-bold text-success">{{ votes }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="row g-4">
+        <!-- Bar Chart -->
+        <div class="col-lg-6 d-flex justify-content-center">
+            <div class="card shadow-lg w-100">
+                <div class="card-header bg-gradient text-white text-center" style="background: linear-gradient(45deg, #28a745, #20c997);">
+                    <h5>Vote Distribution - Bar Chart</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="barChart" style="height: 350px; width: 100%;"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- Pie Chart -->
+        <div class="col-lg-6 d-flex justify-content-center">
+            <div class="card shadow-lg w-100">
+                <div class="card-header bg-gradient text-white text-center" style="background: linear-gradient(45deg, #ffc107, #fd7e14);">
+                    <h5>Vote Distribution - Pie Chart</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="pieChart" style="height: 350px; width: 100%;"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+<!-- Chart.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Data Preparation
+    const candidates = [
+        {% for candidate_id, (name, party, votes) in vote_tally.items() %}
+        "{{ name }}",
+        {% endfor %}
+    ];
+    const votes = [
+        {% for candidate_id, (name, party, votes) in vote_tally.items() %}
+        {{ votes }},
+        {% endfor %}
+    ];
+
+    // Colors for Charts
+    const colors = [
+        'rgba(54, 162, 235, 0.8)',
+        'rgba(255, 99, 132, 0.8)',
+        'rgba(255, 206, 86, 0.8)',
+        'rgba(75, 192, 192, 0.8)',
+        'rgba(153, 102, 255, 0.8)',
+        'rgba(255, 159, 64, 0.8)',
+    ];
+
+    // Bar Chart Configuration
+    const barCtx = document.getElementById('barChart').getContext('2d');
+    const barChart = new Chart(barCtx, {
+        type: 'bar',
+        data: {
+            labels: candidates,
+            datasets: [{
+                label: 'Votes',
+                data: votes,
+                backgroundColor: colors,
+                borderColor: colors.map(color => color.replace('0.8', '1')),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        font: {
+                            size: 14
+                        },
+                        color: '#4CAF50'
+                    },
+                    title: {
+                        display: true,
+                        text: 'Number of Votes',
+                        font: {
+                            size: 16
+                        }
+                    }
+                },
+                x: {
+                    ticks: {
+                        font: {
+                            size: 14
+                        },
+                        color: '#007BFF'
+                    },
+                    title: {
+                        display: true,
+                        text: 'Candidates',
+                        font: {
+                            size: 16
+                        }
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                    titleFont: {
+                        size: 14
+                    },
+                    bodyFont: {
+                        size: 12
+                    }
+                }
+            }
+        }
+    });
+
+    // Pie Chart Configuration
+    const pieCtx = document.getElementById('pieChart').getContext('2d');
+    const pieChart = new Chart(pieCtx, {
+        type: 'pie',
+        data: {
+            labels: candidates,
+            datasets: [{
+                data: votes,
+                backgroundColor: colors,
+                borderColor: '#fff',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'bottom',
+                    labels: {
+                        font: {
+                            size: 14
+                        },
+                        color: '#555'
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                    titleFont: {
+                        size: 14
+                    },
+                    bodyFont: {
+                        size: 12
+                    }
+                }
+            }
+        }
+    });
+</script>
 {% endblock %}

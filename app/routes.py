@@ -11,7 +11,7 @@ from app.models import (
     add_candidate, tally_votes, log_admin_action,
     validate_otp, save_otp, generate_otp,
     reset_databases, create_election, authenticate_admin,
-    delete_candidate, list_elections, get_election_id
+    delete_candidate, list_elections, get_election_id, get_election_data
 )
 from app.utils import validate_password, send_email_otp, send_email_voter_id, generate_voter_id
 

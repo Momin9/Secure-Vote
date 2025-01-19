@@ -1,4 +1,3 @@
-import bcrypt
 import logging
 import os
 import pickle
@@ -184,7 +183,9 @@ def list_candidates(election_id=None):
     if election_id:
         cursor.execute("SELECT * FROM candidates WHERE election_id = ?", (election_id,))
     else:
-        cursor.execute("SELECT * FROM candidates")  # Fetch all candidates
+        cursor.execute("""SELECT * FROM candidates
+        LEFT JOIN elections ON elections.election_id = candidates.election_id
+        """)  # Fetch all candidates
 
     candidates = cursor.fetchall()
     conn.close()
@@ -202,6 +203,7 @@ def list_elections():
     conn.close()
     return elections
 
+
 def get_election_id(candidate_id):
     """Retrieve all candidates or candidates for a specific election."""
     conn = sqlite3.connect("voting_system.db")
@@ -212,6 +214,21 @@ def get_election_id(candidate_id):
     election_id = cursor.fetchall()
     conn.close()
     return election_id
+
+
+def get_election_data(candidate_id):
+    """Retrieve all candidates or candidates for a specific election."""
+    conn = sqlite3.connect("voting_system.db")
+    cursor = conn.cursor()
+
+    cursor.execute("""SELECT * FROM elections
+    LEFT JOIN candidates ON candidates.election_id = elections.election_id
+    WHERE candidates.candidate_id = ?""", (candidate_id,))
+
+    election_data = cursor.fetchall()
+    conn.close()
+    return election_data
+
 
 def add_candidate(name, party, election_id):
     """Add a new candidate to an election."""
